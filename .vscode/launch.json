@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "chi_2021",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "chi_2021 (profile mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    }
+  ]
+}
