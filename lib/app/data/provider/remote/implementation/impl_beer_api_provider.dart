@@ -1,7 +1,7 @@
-import '../../../../../core/error/exception.dart';
-import '../../../../../utils/constants.dart';
-import '../../../../models/beer/beer.dart';
-import '../../interface/i_beer_api_provider.dart';
+import '../../../../core/error/exception.dart';
+import '../../../../utils/constants.dart';
+import '../../../models/beer/beer.dart';
+import '../interface/i_beer_api_provider.dart';
 
 class ImplBeerApiProvider extends IBeerApiProvider {
   String get _basePath => 'https://api.punkapi.com/v2/';

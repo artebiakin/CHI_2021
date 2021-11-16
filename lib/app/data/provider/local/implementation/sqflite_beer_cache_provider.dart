@@ -1,8 +1,8 @@
 import 'package:sqflite/sqflite.dart';
 
-import '../../../../../core/error/exception.dart';
-import '../../../../models/beer/beer.dart';
-import '../../interface/i_beer_cache_provider.dart';
+import '../../../../core/error/exception.dart';
+import '../../../models/beer/beer.dart';
+import '../interface/i_beer_cache_provider.dart';
 
 class SqfliteBeerCacheProvider extends IBeerCacheProvider {
   static const TABLE_NAME = 'beers';
