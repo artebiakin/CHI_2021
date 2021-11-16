@@ -8,4 +8,8 @@ class LightTheme extends ITheme {
   ThemeData get appThemeData => _lightThemeData;
 }
 
-final ThemeData _lightThemeData = ThemeData();
+final ThemeData _lightThemeData = ThemeData(
+  inputDecorationTheme: const InputDecorationTheme(
+    errorStyle: TextStyle(height: .3, fontSize: 1),
+  ),
+);
