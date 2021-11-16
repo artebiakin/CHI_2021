@@ -3,9 +3,9 @@ import 'dart:convert';
 import 'package:idb_shim/idb_browser.dart';
 import 'package:idb_shim/idb_shim.dart';
 
-import '../../../../../core/error/exception.dart';
-import '../../../../models/beer/beer.dart';
-import '../../interface/i_beer_cache_provider.dart';
+import '../../../../core/error/exception.dart';
+import '../../../models/beer/beer.dart';
+import '../interface/i_beer_cache_provider.dart';
 
 class IdbBeerCacheProvider extends IBeerCacheProvider {
   static const TABLE_NAME = 'beers';

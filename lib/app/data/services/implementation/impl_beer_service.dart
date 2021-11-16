@@ -4,8 +4,8 @@ import 'package:get/get.dart';
 import '../../../core/error/exception.dart';
 import '../../../core/error/failures.dart';
 import '../../models/beer/beer.dart';
+import '../../provider/local/interface/i_beer_cache_provider.dart';
 import '../../provider/remote/interface/i_beer_api_provider.dart';
-import '../../provider/remote/interface/i_beer_cache_provider.dart';
 import '../interface/i_beer_service.dart';
 
 class ImplBeerService extends IBeerService {
