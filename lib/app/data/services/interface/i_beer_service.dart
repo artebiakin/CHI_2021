@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 
 import '../../../core/error/failures.dart';
 import '../../models/beer/beer.dart';
-import '../../provider/remote/interface/i_beer_cache_provider.dart';
+import '../../provider/local/interface/i_beer_cache_provider.dart';
 
 abstract class IBeerService extends GetxService {
   IBeerService(this.iBeerCacheProvider);

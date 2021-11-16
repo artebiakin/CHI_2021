@@ -1,11 +1,11 @@
 import 'package:flutter/foundation.dart';
 import 'package:get/get.dart';
 
-import 'app/data/provider/remote/implementation/beer_provider/idb_beer_cache_provider.dart';
-import 'app/data/provider/remote/implementation/beer_provider/impl_beer_api_provider.dart';
-import 'app/data/provider/remote/implementation/beer_provider/sqflite_beer_cache_provider.dart';
+import 'app/data/provider/local/implementation/idb_beer_cache_provider.dart';
+import 'app/data/provider/local/implementation/sqflite_beer_cache_provider.dart';
+import 'app/data/provider/local/interface/i_beer_cache_provider.dart';
+import 'app/data/provider/remote/implementation/impl_beer_api_provider.dart';
 import 'app/data/provider/remote/interface/i_beer_api_provider.dart';
-import 'app/data/provider/remote/interface/i_beer_cache_provider.dart';
 import 'app/data/services/implementation/impl_auth_service.dart';
 import 'app/data/services/implementation/impl_beer_service.dart';
 import 'app/data/services/interface/i_auth_service.dart';
